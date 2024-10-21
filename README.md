@@ -39,3 +39,5 @@ From the reviewed benchmarks, here are the top 5 that are most pertinent to your
 - CHEMBL Benchmark - necessary for evaluating drug interactions, an essential component in pharmaceutical data handling.
 - SQuAD - for a broader evaluation of comprehension and question-answering abilities, adaptable to general medical queries.
 
+
+[lien test](https://huggingface.co/pankajmathur/orca_mini_3b)
