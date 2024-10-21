@@ -21,3 +21,7 @@ The main criteria for the Medical Research Assistant LLM would include:
 - Legal and Ethical Compliance: The assistant must adhere to relevant legal and ethical standards in health communication, such as ensuring patient privacy (HIPAA, GDPR compliance) and avoiding misdiagnosis or unqualified advice.
 - User-Specific Customization: The model must be able to adjust its language and detail level based on the user's background, whether they are a medical professional seeking in-depth details or a patient requiring simplified, layperson-friendly explanations.
 - Data Handling and Up-to-date Information: The system must efficiently handle a large corpus of medical research, keeping answers current with the latest findings and treatment guidelines, especially in rapidly evolving medical fields.
+
+## Q&A
+
+[link to Q&A](https://www.kaggle.com/datasets/gvaldenebro/cancer-q-and-a-dataset?resource=download&select=growth_hormone_receptorQA.csv)
