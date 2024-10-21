@@ -14,19 +14,58 @@ Medical terminologies, ensuring safety-critical answers, handling legal and ethi
 ## Main criteria
 
 The main criteria for the Medical Research Assistant LLM would include:
+1. Answer Quality Metrics
+	•	Accuracy:
+	◦	Definition: Measures whether the system provides correct and evidence-based information.
+	◦	Relevance: In a medical context, accuracy is absolutely essential because the wrong information can have serious or even life-threatening consequences. It's critical for legal and ethical reasons to ensure the system is trustworthy. The system must be able to accurately extract and present data from clinical guidelines, research papers, and pharmaceutical databases.
+	◦	Evaluation: This can be measured by comparing system-generated answers against verified clinical guidelines or subject-matter expert reviews. Additionally, medical professionals can rate the quality of responses to ensure accuracy.
+	•	Completeness:
+	◦	Definition: Evaluates whether the system provides answers that are thorough and fully address the user’s query.
+	◦	Relevance: In the context of rare diseases or complex treatment plans, incomplete answers could lead to misinformed decision-making. The system must offer comprehensive information, especially when handling safety-critical answers.
+	◦	Evaluation: This can be tested by tracking how often users ask follow-up questions for clarification, which may indicate the initial answer was incomplete.
 
-- Accuracy and Reliability: The assistant must provide highly accurate, evidence-based answers derived from research papers, clinical guidelines, and pharmaceutical data. This is crucial in delivering safe and trustworthy medical advice, especially in cases involving rare diseases and treatment plans.
-- Medical Terminology Comprehension: The system should have a deep understanding of complex medical terminologies to effectively interpret and convey specialized medical knowledge to both healthcare professionals and patients.
-- Safety-Critical Answers: It should prioritize patient safety by clearly identifying approved treatments, highlighting drug interactions, and offering guidance within the bounds of clinical best practices. This includes recognizing when to escalate a query for professional consultation rather than offering potentially harmful advice.
-- Legal and Ethical Compliance: The assistant must adhere to relevant legal and ethical standards in health communication, such as ensuring patient privacy (HIPAA, GDPR compliance) and avoiding misdiagnosis or unqualified advice.
-- User-Specific Customization: The model must be able to adjust its language and detail level based on the user's background, whether they are a medical professional seeking in-depth details or a patient requiring simplified, layperson-friendly explanations.
-- Data Handling and Up-to-date Information: The system must efficiently handle a large corpus of medical research, keeping answers current with the latest findings and treatment guidelines, especially in rapidly evolving medical fields.
+2. User Experience Metrics
+	•	Response Time:
+	◦	Definition: The time it takes for the system to return an answer after a query is submitted.
+	◦	Relevance: Medical professionals often require quick access to information, especially in clinical settings where time is critical. A system that is too slow could impede decision-making, making it less useful.
+	◦	Evaluation: Benchmark response times and aim to keep them within an acceptable range (e.g., less than 2 seconds for basic queries).
+	•	Ease of Use (Usability):
+	◦	Definition: How intuitive and user-friendly the system interface is for end-users.
+	◦	Relevance: Both medical professionals and patients might use this system, so it needs to be accessible to users with varying levels of medical knowledge. If the system is difficult to navigate or requires excessive effort to retrieve information, user adoption will be lower.
+	◦	Evaluation: This can be evaluated through usability tests, user feedback, and surveys. You can also track user behavior (e.g., task completion rates) to see if users are struggling.
+
+3. Performance Metrics
+	•	Scalability:
+	◦	Definition: Measures how well the system handles an increasing number of users or a growing corpus of research papers without degrading performance.
+	◦	Relevance: As the system grows in popularity or incorporates more data, it must continue to provide accurate and timely responses. If it cannot scale, performance issues (like slow response times or system crashes) could occur, reducing reliability.
+	◦	Evaluation: Load testing under simulated peak usage conditions can determine how well the system scales. For instance, you can monitor latency and throughput as the system processes more queries.
+	•	Data Freshness (Timeliness of Updates):
+	◦	Definition: How frequently and quickly the system updates its corpus to include new medical research, guidelines, or pharmaceutical information.
+	◦	Relevance: Medical knowledge is constantly evolving, with new research and treatment protocols emerging regularly. The system must be able to incorporate these updates quickly to remain relevant and accurate.
+	◦	Evaluation: Track how long it takes to incorporate new data and measure whether queries reflect the most current guidelines and research.
+
+4. Cost Metrics
+	•	Operational Costs:
+	◦	Definition: The costs associated with running and maintaining the system, including computing resources, storage, and data acquisition.
+	◦	Relevance: It's important to keep operational costs manageable, especially if the system is widely used or free for users. Cloud hosting, data storage, and AI processing (like natural language models) can become expensive at scale.
+	◦	Evaluation: Monitor monthly or yearly costs for data storage, compute, and any associated licensing fees for accessing proprietary medical databases. Optimize resources to reduce unnecessary expenditures (e.g., scaling servers dynamically based on usage).
+	•	Development and Maintenance Costs:
+	◦	Definition: The costs of developing new features, bug fixes, and general maintenance of the system.
+	◦	Relevance: The system may require regular updates to ensure it meets the needs of users and complies with evolving regulations. High development costs might make the system unsustainable in the long run.
+	◦	Evaluation: Track development hours, maintenance schedules, and resource allocation for bug fixes. Analyze whether there's a high cost for changes or new feature implementations.
+
+Each of these metrics addresses a specific challenge or goal in developing a medical research assistant system:
+	•	Answer Quality Metrics ensure that the system provides accurate, reliable, and thorough responses—essential for safety-critical environments.
+	•	User Experience Metrics focus on how effectively users can interact with the system and receive information in a timely manner, which is vital in medical decision-making.
+	•	Performance Metrics help assess the system’s ability to scale and stay up-to-date with the latest medical research, ensuring long-term viability and reliability.
+	•	Cost Metrics aim to keep the system financially sustainable, ensuring that it remains accessible to users without incurring prohibitive operational costs.
+These metrics, when measured and optimized, help ensure that the system provides high-quality, timely, and cost-effective assistance for medical professionals and patients alike.
 
 ## Q&A
 
-[link to Q&A](https://www.kaggle.com/datasets/gvaldenebro/cancer-q-and-a-dataset?resource=download&select=growth_hormone_receptorQA.csv)
+[link to Q&A file](https://www.kaggle.com/datasets/gvaldenebro/cancer-q-and-a-dataset?resource=download&select=growth_hormone_receptorQA.csv)
 
-https://docs.google.com/spreadsheets/d/10wujNUzXb3qMbppAO7kucGEroBbA6WZmSpmzudxlZuI/edit?usp=sharing
+[link to the selected Q&A](https://docs.google.com/spreadsheets/d/10wujNUzXb3qMbppAO7kucGEroBbA6WZmSpmzudxlZuI/edit?usp=sharing)
 
 ## Benchmarks
 
