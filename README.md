@@ -15,10 +15,10 @@ Medical terminologies, ensuring safety-critical answers, handling legal and ethi
 
 The main criteria for the Medical Research Assistant LLM would include:
 1. Answer Quality Metrics
-	•	Accuracy:
-	◦	Definition: Measures whether the system provides correct and evidence-based information.
-	◦	Relevance: In a medical context, accuracy is absolutely essential because the wrong information can have serious or even life-threatening consequences. It's critical for legal and ethical reasons to ensure the system is trustworthy. The system must be able to accurately extract and present data from clinical guidelines, research papers, and pharmaceutical databases.
-	◦	Evaluation: This can be measured by comparing system-generated answers against verified clinical guidelines or subject-matter expert reviews. Additionally, medical professionals can rate the quality of responses to ensure accuracy.
+- Accuracy:
+	- Definition: Measures whether the system provides correct and evidence-based information.
+	- Relevance: In a medical context, accuracy is absolutely essential because the wrong information can have serious or even life-threatening consequences. It's critical for legal and ethical reasons to ensure the system is trustworthy. The system must be able to accurately extract and present data from clinical guidelines, research papers, and pharmaceutical databases.
+	- Evaluation: This can be measured by comparing system-generated answers against verified clinical guidelines or subject-matter expert reviews. Additionally, medical professionals can rate the quality of responses to ensure accuracy.
 	•	Completeness:
 	◦	Definition: Evaluates whether the system provides answers that are thorough and fully address the user’s query.
 	◦	Relevance: In the context of rare diseases or complex treatment plans, incomplete answers could lead to misinformed decision-making. The system must offer comprehensive information, especially when handling safety-critical answers.
