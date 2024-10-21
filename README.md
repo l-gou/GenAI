@@ -26,5 +26,16 @@ The main criteria for the Medical Research Assistant LLM would include:
 
 [link to Q&A](https://www.kaggle.com/datasets/gvaldenebro/cancer-q-and-a-dataset?resource=download&select=growth_hormone_receptorQA.csv)
 
-
 https://docs.google.com/spreadsheets/d/10wujNUzXb3qMbppAO7kucGEroBbA6WZmSpmzudxlZuI/edit?usp=sharing
+
+## Benchmarks
+
+Top 5 Benchmarks for Your Medical Research Assistant Project
+From the reviewed benchmarks, here are the top 5 that are most pertinent to your project's use case:
+
+- BLURB - for its focus on various biomedical tasks, making it ideal for handling medical terminologies and evidence-based content.
+- MedQA - because it directly tests the model's ability to answer clinical and patient-centric questions.
+- PubMedQA - for evaluating how well the model can assist in reviewing and summarizing research papers.
+- CHEMBL Benchmark - necessary for evaluating drug interactions, an essential component in pharmaceutical data handling.
+- SQuAD - for a broader evaluation of comprehension and question-answering abilities, adaptable to general medical queries.
+
