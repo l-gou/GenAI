@@ -38,6 +38,7 @@ From the reviewed benchmarks, here are the top 5 that are most pertinent to your
 - PubMedQA - for evaluating how well the model can assist in reviewing and summarizing research papers.
 - CHEMBL Benchmark - necessary for evaluating drug interactions, an essential component in pharmaceutical data handling.
 - SQuAD - for a broader evaluation of comprehension and question-answering abilities, adaptable to general medical queries.
+![image](https://github.com/user-attachments/assets/cab4f309-d9a8-4ef9-ac94-c89304ea5459)
 
 
 [lien test](https://huggingface.co/pankajmathur/orca_mini_3b)
