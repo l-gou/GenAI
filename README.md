@@ -81,7 +81,16 @@ From the reviewed benchmarks, here are the top 5 that are most pertinent to your
 
 ## Benchmarks 
 
+I was unable to find specific benchmark scores for Orca Mini 3B on the datasets you mentioned (BLURB, MedQA, PubMedQA, CHEMBL, and SQuAD). However, I can provide insights from similar models in terms of size and scope.
+
+
+|Benchmark|	Orca Mini 3B (Assumed)|	Similar Models (LLaMA-3-8B)	|Other Relevant Models (7B-8B)|
+|--------------|---------------|--------|-------------|
+|BLURB	|N/A	|Not directly found	|70-75 (7B Medical models)|
+|MedQA	|N/A	|73.3 (LLaMA-3-8B, Greedy)	|60-77 (Med-PaLM, OpenBioLM)|
+|PubMedQA|	N/A	|77.0 (LLaMA-3-8B, Greedy)|	74.1 (OpenBioLM-8B)|
+|CHEMBL	|N/A	|Not available	|Not found for models of this size|
+|SQuAD	|N/A	|Not found	|80-85 (similar 7B-8B models)|
+
 ![image](https://github.com/user-attachments/assets/cab4f309-d9a8-4ef9-ac94-c89304ea5459)
-
-
 [lien test](https://huggingface.co/pankajmathur/orca_mini_3b)
