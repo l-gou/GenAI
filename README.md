@@ -25,3 +25,6 @@ The main criteria for the Medical Research Assistant LLM would include:
 ## Q&A
 
 [link to Q&A](https://www.kaggle.com/datasets/gvaldenebro/cancer-q-and-a-dataset?resource=download&select=growth_hormone_receptorQA.csv)
+
+
+https://docs.google.com/spreadsheets/d/10wujNUzXb3qMbppAO7kucGEroBbA6WZmSpmzudxlZuI/edit?usp=sharing
