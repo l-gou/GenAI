@@ -93,4 +93,7 @@ I was unable to find specific benchmark scores for Orca Mini 3B on the datasets 
 |SQuAD	|N/A	|Not found	|80-85 (similar 7B-8B models)|
 
 ![image](https://github.com/user-attachments/assets/cab4f309-d9a8-4ef9-ac94-c89304ea5459)
+
 [lien test](https://huggingface.co/pankajmathur/orca_mini_3b)
+[Open Medical-LLM](https://github.com/huggingface/blog/blob/main/leaderboard-medicalllm.md)
+[Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)
