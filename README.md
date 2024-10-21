@@ -67,16 +67,21 @@ These metrics, when measured and optimized, help ensure that the system provides
 
 [link to the selected Q&A](https://docs.google.com/spreadsheets/d/10wujNUzXb3qMbppAO7kucGEroBbA6WZmSpmzudxlZuI/edit?usp=sharing)
 
-## Benchmarks
-
-Top 5 Benchmarks for Your Medical Research Assistant Project
+## Benchmarks for Your Medical Research Assistant Project
 From the reviewed benchmarks, here are the top 5 that are most pertinent to your project's use case:
 
-- BLURB - for its focus on various biomedical tasks, making it ideal for handling medical terminologies and evidence-based content.
-- MedQA - because it directly tests the model's ability to answer clinical and patient-centric questions.
-- PubMedQA - for evaluating how well the model can assist in reviewing and summarizing research papers.
-- CHEMBL Benchmark - necessary for evaluating drug interactions, an essential component in pharmaceutical data handling.
-- SQuAD - for a broader evaluation of comprehension and question-answering abilities, adaptable to general medical queries.
+|**Benchmarks**|**Description**|**Link**|**Relevance**|
+|--------------|---------------|--------|-------------|
+|BLURB (Biomedical Language Understanding & Reasoning Benchmark)|BLURB is a collection of tasks that evaluate the ability of language models to understand and reason over biomedical texts. It consists of tasks like named entity recognition (NER), relation extraction (RE), sentence similarity, and question-answering tailored specifically for biomedical literature.||BLURB is highly relevant to the GenAI Medical Research Assistant because it focuses on evaluating models for biomedical natural language processing (NLP), which is crucial when dealing with medical terminologies, drug names, and clinical guidelines. It helps in assessing how well the assistant can process, understand, and answer questions from medical research and clinical guidelines.|
+|MedQA|MedQA is a benchmark designed to evaluate AI models on medical question-answering tasks using content from the United States Medical Licensing Examination (USMLE). It consists of questions that require deep medical knowledge, spanning multiple-choice questions typically used in medical exams.||MedQA is important because it simulates the real-world scenario where medical professionals ask diagnostic or treatment-related questions. The assistant's ability to answer these questions accurately ensures it can provide reliable, evidence-based information to both medical professionals and patients.|
+|PubMedQA|PubMedQA is a question-answering dataset derived from PubMed articles. It includes questions focused on biomedical research, where answers are fact-based and sourced from abstracts of PubMed papers. It consists of questions in three categories: yes/no questions, factoid questions, and open-ended questions.||PubMedQA is relevant because it is based on real medical research publications. The GenAI system can use it to benchmark its ability to provide accurate and evidence-based answers from biomedical literature. This is critical for ensuring that the assistant delivers precise information backed by research.|
+|ChEMBL|ChEMBL is a large-scale bioactivity database containing information on drug-like small molecules, including their chemical properties, bioactivity, and associated targets. It is widely used for drug discovery and pharmacological research.||For a Medical Research Assistant providing drug information, ChEMBL serves as an important benchmark to evaluate the system’s ability to retrieve and process chemical and pharmacological data. It's crucial for answering drug interaction questions, supporting evidence-based treatment plans, and identifying drug efficacy or toxicity.|
+|SQuAD (Stanford Question Answering Dataset)|SQuAD is a well-known reading comprehension dataset where a system must extract the answer to a question from a given passage of text. The dataset includes questions with corresponding passages from Wikipedia.||While SQuAD is not medical-specific, it provides a general-purpose benchmark for question-answering. The ability of the Medical Research Assistant to perform well on SQuAD can indicate its potential for robust language understanding, comprehension, and answer extraction, which are transferable skills to the medical domain when answering research-related questions.|
+|--------------|---------------|--------|-------------|
+
+
+## Benchmarks 
+
 ![image](https://github.com/user-attachments/assets/cab4f309-d9a8-4ef9-ac94-c89304ea5459)
 
 
