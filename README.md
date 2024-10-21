@@ -55,10 +55,10 @@ The main criteria for the Medical Research Assistant LLM would include:
 	- Evaluation: Track development hours, maintenance schedules, and resource allocation for bug fixes. Analyze whether there's a high cost for changes or new feature implementations.
 
 Each of these metrics addresses a specific challenge or goal in developing a medical research assistant system:
-	•	Answer Quality Metrics ensure that the system provides accurate, reliable, and thorough responses—essential for safety-critical environments.
-	•	User Experience Metrics focus on how effectively users can interact with the system and receive information in a timely manner, which is vital in medical decision-making.
-	•	Performance Metrics help assess the system’s ability to scale and stay up-to-date with the latest medical research, ensuring long-term viability and reliability.
-	•	Cost Metrics aim to keep the system financially sustainable, ensuring that it remains accessible to users without incurring prohibitive operational costs.
+- Answer Quality Metrics ensure that the system provides accurate, reliable, and thorough responses—essential for safety-critical environments.
+- User Experience Metrics focus on how effectively users can interact with the system and receive information in a timely manner, which is vital in medical decision-making.
+- Performance Metrics help assess the system’s ability to scale and stay up-to-date with the latest medical research, ensuring long-term viability and reliability.
+- Cost Metrics aim to keep the system financially sustainable, ensuring that it remains accessible to users without incurring prohibitive operational costs.
 These metrics, when measured and optimized, help ensure that the system provides high-quality, timely, and cost-effective assistance for medical professionals and patients alike.
 
 ## Q&A
