@@ -98,4 +98,16 @@ I was unable to find specific benchmark scores for Orca Mini 3B on the datasets 
 [Open Medical-LLM](https://github.com/huggingface/blog/blob/main/leaderboard-medicalllm.md)
 [Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)
 
+## Fine-Tuning
+
+Here is a table summarizing the details of the **ClinicalBERT** model from Hugging Face:
+
+| **Attribute**               | **Details**                                                                                       |
+|-----------------------------|---------------------------------------------------------------------------------------------------|
+| **Link**                    | [ClinicalBERT on Hugging Face](https://huggingface.co/medicalai/ClinicalBERT)                     |
+| **Documentation Quality**    | Basic overview provided with usage instructions, pretraining data, and citation information.       |
+| **Fine-tuned to**            | Clinical data, specifically Electronic Health Records (EHRs) from over 3 million patient records. |
+| **Base Model**               | BERT (Bidirectional Encoder Representations from Transformers).                                   |
+| **Benchmark Scores**         | Not available on the model card.                                                                  |
+| **Available in GGUF (Ollama)**| Not listed as available in GGUF format.                                                           |
 
