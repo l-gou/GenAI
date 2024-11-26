@@ -98,13 +98,4 @@ I was unable to find specific benchmark scores for Orca Mini 3B on the datasets 
 [Open Medical-LLM](https://github.com/huggingface/blog/blob/main/leaderboard-medicalllm.md)
 [Llama-3-8B-UltraMedical](https://huggingface.co/TsinghuaC3I/Llama-3-8B-UltraMedical)
 
-## Fine-Tuning 
-
-
-|Link   				|	|	
-|Documentation (model card) quality	|	|
-|Fine tuned to				|	|
-|Base model				|	|
-|Benchmark scores (if available)	|	|
-|Available in GGUF (for Ollama)		|	|
 
